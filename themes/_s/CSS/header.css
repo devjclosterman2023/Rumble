@@ -1,0 +1,72 @@
+* {
+    margin :0px;
+    padding: 0px;
+}
+
+
+#masthead {
+    display: flex;
+    align-items: center;
+    background-color: #454545;
+    padding: 10px;
+    margin-bottom: -24px;
+    width: 100%;
+}
+ 
+.main-navigation {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.main-navigation a {
+    margin: 20px;
+    color: whitesmoke;
+}
+
+#flexin {
+    display: flex;
+}
+
+.entry-title {
+    display: none;
+}
+
+.floating_left_box {
+    background-image: url('/wp-content/uploads/2023/08/Group-7.png');
+    border: 5px solid #CCD62A;
+    border-radius: 25px;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+.floating_right_box {
+    border-radius: 25px;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+.header_button {
+    margin: 20px;
+    background-color: #CCD62A;
+    border-radius: 10px;
+}
+
+.site-branding {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.header_image {
+    position: relative;
+}
+/* ///////////////////////////////////////////////////////////// */
+
+.m-w-80 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.checkered_background {
+    background-image: url('/wp-content/uploads/2023/08/Group-7.png');
+}
