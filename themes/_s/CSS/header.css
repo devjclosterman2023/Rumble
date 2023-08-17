@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+.icon-container {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Add a smooth transition to the transform property */
+}
+
+.icon-container:hover {
+    transform: scale(1.2); /* Increase the scale on hover to make the icon bigger */
+}
 
 #masthead {
     display: flex;
@@ -17,6 +25,7 @@
     display: flex;
     justify-content: center;
     color: whitesmoke;
+    align-items: center;
 }
 
 .main-navigation a {
@@ -38,6 +47,11 @@
     border-radius: 25px;
     padding: 10px;
     /* position: absolute; */
+    top: 739px;
+left: 300px;
+width: 800px;
+height: 343px;
+opacity: 1;
 }
 
 .floating_right_box {
@@ -48,8 +62,13 @@
 
 .header_button {
     margin: 20px;
-    background-color: #CCD62A;
+    background: #CCD62A;
     border-radius: 10px;
+    color: #454545;
+    width: 214px;
+    height: 44px;
+    font-weight: bold;
+    opacity: 1;
 }
 
 .site-branding {
@@ -60,6 +79,15 @@
 .header_image {
     position: relative;
 }
+
+.cover_button button {
+ 
+width: 307px;
+height: 69px;
+/* UI Properties */
+border-radius: 10px;
+opacity: 1;
+}
 /* ///////////////////////////////////////////////////////////// */
 
 .m-w-80 {
@@ -67,6 +95,36 @@
     margin: 0 auto;
 }
 
+.m-w-60 {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.m-w-50 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .checkered_background {
     background-image: url('/wp-content/uploads/2023/08/Group-7.png');
 }
+
+.border-radius {
+    border-radius: 25px;
+    /* padding: 5px; */
+}
+
+.line-height {
+    line-height: 1;
+}
+
+.center_everything {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding_test {
+  padding: 20px;
+}
+
