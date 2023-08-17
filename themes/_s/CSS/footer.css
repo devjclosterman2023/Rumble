@@ -1,0 +1,197 @@
+.half-box {
+    height: 14rem;
+}
+
+
+.flexingBro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  
+  .widget-area {
+    display: none;
+  }
+  
+  .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 30px 0;
+    }
+  
+  .footer-content {
+      position: relative;
+      max-width: 100%;
+   /* display: flex;
+      flex-direction: column; /* Adjust for mobile stacking */
+    /*align-items: center; */ 
+  }
+  
+  .top {
+      background-image: url("/wp-content/uploads/2023/08/Group-22.png");
+      height: 50vh;
+  }
+  
+  .bottom {
+      background-image: url('/wp-content/uploads/2023/08/Group-7.png');
+      height: 50vh;
+  }
+  
+  .images {
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .form-center {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9); /* Add background color for better visibility */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    }
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+  
+    .outline {
+      border: 5px solid #ccd62a;
+    }
+  
+    .text-align-left {
+      text-align: left;
+    }
+    
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+    
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    .image-next-to-form {
+     /* background-image: url("/wp-content/uploads/2023/08/Group-15.png"); */
+     height: 536px;
+     width: 534px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: inline-block;
+    }
+  
+    .column {
+      flex: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+  .horizontal-list {
+      list-style: none;
+      display: flex;
+      justify-content:flex-start;
+      padding: 0;
+      align-items: center;
+      /* margin-top: 50px; */   
+  }
+  
+  .horizontal-list li {
+     margin: 0 10px;
+     color: white;
+  }
+  
+  span {
+      color: #ccd62a;
+  }
+  
+  .address {
+      list-style: none;
+      color: white;
+      text-align: left;
+  }
+  
+  .number {
+      color: #ccd62a;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  
+  .ticket {
+      background-color: #ccd62a;
+      border-radius: 5px;
+      height: 35px;
+      width:150px;
+      color: #454545;
+      box-shadow: 0;
+  }
+  
+  .bottom-right {
+      color: white;
+  }
+  
+  .no-wrap {
+      white-space: nowrap;
+    }
+  
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+      .horizontal-list {
+          display: flex;
+          flex-direction: column;
+      }
+    }

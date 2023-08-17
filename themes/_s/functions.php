@@ -178,6 +178,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 function enqueue_custom_stylesheets() {
     wp_enqueue_style( 'header', get_template_directory_uri() . '/CSS/header.css');
+    wp_enqueue_style( 'footer', get_template_directory_uri() . '/CSS/footer.css');
 }
 
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_stylesheets');

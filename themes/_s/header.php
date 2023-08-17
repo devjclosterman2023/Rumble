@@ -43,8 +43,8 @@
 				)
 			);
 			?>
-			<div class="header_button"><button>REMOTE SUPPORT</button></div>
-			<div class="header_button"><button>CREATE A TICKET</button></div>	
+			<div><button class="header_button">REMOTE SUPPORT</button></div>
+			<div><button class="header_button">CREATE A TICKET</button></div>	
 		</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
