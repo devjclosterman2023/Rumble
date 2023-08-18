@@ -46,18 +46,23 @@
     border: 5px solid #CCD62A;
     border-radius: 25px;
     padding: 10px;
-    /* position: absolute; */
-    top: 739px;
-left: 300px;
-width: 800px;
-height: 343px;
-opacity: 1;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    height: 343px;
 }
 
 .floating_right_box {
     border-radius: 25px;
     padding: 10px;
-    /* position: absolute; */
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    height: 343px;
 }
 
 .header_button {
@@ -88,6 +93,14 @@ height: 69px;
 border-radius: 10px;
 opacity: 1;
 }
+
+.position_relative {
+    position: relative;
+}
+
+.margin-top {
+    margin-top: -300px;
+} 
 /* ///////////////////////////////////////////////////////////// */
 
 .m-w-80 {
